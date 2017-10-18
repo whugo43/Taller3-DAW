@@ -1,0 +1,79 @@
+*{
+	font-family: "Verdana";
+}
+
+h1{      /* 3d */
+	color: blue;
+	text-align:center;
+}
+
+#cabecera>img{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.elemento-menu{
+	display:inline;
+	list-style-type:none;
+}
+#menu{
+	text-align: center;
+
+}
+
+
+/*PARTE 2*/
+ #footer{
+ 	font-style: italic;
+ 	text-align:center;	
+ }
+aside>h3+h4 {
+	font-style:italic;
+	color: green;
+}
+
+aside>ul>li>h5~p{
+	font-size: 8pt;
+}
+
+aside>ul>li>h5[title$=small]
+{
+	text-decoration: underline;
+}
+
+aside>ul li[name$=fork]
+{
+	list-style-image:url("https://goo.gl/y0yaro");
+}
+
+
+/*PARTE 3*/
+nav>ul>li> a:hover{ 
+	color: green;
+}
+
+p[class=descripcion]:first-letter{
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+article>header>section>img:first-child{
+	display:block;
+	margin: auto;
+	 width: 15%;
+}
+
+section#left {
+	float:left;
+	width:70%;
+	
+}
+aside#right {
+	float:right;
+	width:25%;
+}
+
+footer#footer {
+	clear:both;
+}
