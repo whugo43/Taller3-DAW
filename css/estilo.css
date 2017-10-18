@@ -58,7 +58,7 @@ p[class=descripcion]:first-letter{
 	font-weight: bold;
 }
 
-article>header>section>img:first-child{
+article>header>section>img:only-of-type{
 	display:block;
 	margin: auto;
 	 width: 15%;
